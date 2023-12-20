@@ -18,8 +18,6 @@ dtparam=eth_led0=14
 dtparam=eth_led1=14
 
 
-
-
 # Pi 4 Code
 
 # Turn off Power LED
@@ -32,3 +30,12 @@ dtparam=act_led_activelow=off
 dtparam=eth_led0=4
 # Turn off Ethernet LNK LED
 dtparam=eth_led1=4
+
+
+# Pi 5 Code (not yet tested)
+
+# Turn off the LEDs
+dtparam=pwr_led_trigger=default-on # The default
+dtparam=pwr_led_activelow=off
+dtparam=act_led_trigger=default-on # The default
+dtparam=act_led_activelow=off
