@@ -1,0 +1,4 @@
+# Location of the Boot file where configuration parameters can be set
+# Can be edited with Sudo nano
+
+/boot/config.txt
