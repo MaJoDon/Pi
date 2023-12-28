@@ -32,7 +32,8 @@ dtparam=eth_led0=4
 dtparam=eth_led1=4
 
 
-# Pi 5 Code (not yet tested)
+# Pi 5 Code (insert before [CM4] reference
+
 
 # Turn off the LEDs
 dtparam=pwr_led_trigger=default-on # The default
