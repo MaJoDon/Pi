@@ -5,6 +5,7 @@ Sudo Nano /boot/config.txt
 
 
 # Pi 3 Code
+# Bookwork (Deb 12) seems to require activelow=on to disable lights
 
 # Turn off Power LED
 dtparam=pwr_led_trigger=default-on
@@ -19,6 +20,7 @@ dtparam=eth_led1=14
 
 
 # Pi 4 Code
+# Bookwork (Deb 12) seems to require activelow=on to disable lights
 
 # Turn off Power LED
 dtparam=pwr_led_trigger=default-on
@@ -33,7 +35,7 @@ dtparam=eth_led1=4
 
 
 # Pi 5 Code (insert before [CM4] reference
-
+# Bookwork (Deb 12) seems to require activelow=on to disable lights
 
 # Turn off the LEDs
 dtparam=pwr_led_trigger=default-on # The default
