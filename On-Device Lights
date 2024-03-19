@@ -1,9 +1,9 @@
 # Code to turn off Power & SD read lights
 
 # Edits can be made using 
-Sudo Nano /boot/config.txt
+sudo nano /boot/config.txt
 or
-Sudo Nano /boot/firmware/config.txt
+sudo nano /boot/firmware/config.txt
 
 
 # Pi 3 Code
