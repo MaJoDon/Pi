@@ -36,6 +36,7 @@ dtparam=eth_led0=4
 dtparam=eth_led1=4
 
 
+# After a March 2024 software update, the Pi 4 Code worked but the following code stopped working
 # Pi 5 Code (insert before [CM4] reference
 # Bookwork (Deb 12) seems to require activelow=on to disable lights
 
