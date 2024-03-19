@@ -2,6 +2,8 @@
 
 # Edits can be made using 
 Sudo Nano /boot/config.txt
+or
+Sudo Nano /boot/firmware/config.txt
 
 
 # Pi 3 Code
